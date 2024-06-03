@@ -1,0 +1,50 @@
+
+.home-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #0f1045; /* Dark background color */
+    color: white;
+    padding: 50px;
+    height: 100vh;
+    box-sizing: border-box;
+  }
+  
+  .text-container {
+    max-width: 50%;
+  }
+  
+  .text-container h1 {
+    font-size: 48px;
+    margin-bottom: 20px;
+  }
+  
+  .text-container p {
+    font-size: 18px;
+    margin-bottom: 40px;
+  }
+  
+  .try-it-now-button {
+    background-color: #1bcce8; /* Button background color */
+    color: white;
+    border: none;
+    padding: 15px 30px;
+    font-size: 20px;
+    border-radius:9px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .try-it-now-button:hover {
+    background-color: #2980B9; /* Darker button color on hover */
+  }
+  
+  .image-container {
+    max-width: 50%;
+  }
+  
+  .image-container img {
+    width: 100%;
+    height: auto;
+  }
+  

@@ -1,0 +1,108 @@
+/* Requests.css */
+/* Styles généraux pour le conteneur principal */
+.request-container {
+  padding: 20px;
+  background-color: #f8f9fa;
+  font-family: Arial, sans-serif;
+}
+
+.request-container h1 {
+  text-align: center;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+/* Styles pour les cartes de demande */
+.request-card {
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+  padding: 20px;
+  transition: transform 0.2s;
+}
+
+.request-card:hover {
+  transform: translateY(-5px);
+}
+
+.request-seller, .request-title, .request-description, .request-price {
+  margin: 10px 0;
+}
+
+.request-seller {
+  font-size: 14px;
+  color: #777;
+}
+
+.request-title {
+  font-size: 20px;
+  color: #2c3e50;
+}
+
+.request-description {
+  font-size: 16px;
+  color: #555;
+}
+
+.request-image {
+  max-width: 100%;
+  border-radius: 8px;
+  margin: 15px 0;
+}
+
+.request-price {
+  font-size: 18px;
+  color: #e74c3c;
+  font-weight: bold;
+}
+
+/* Styles pour les boutons */
+.request-buttons {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+
+.request-buttons button {
+  background-color: #3498db;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  padding: 10px 20px;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.request-buttons button:hover {
+  background-color: #2980b9;
+}
+
+.request-buttons button:nth-child(2) {
+  background-color: #e74c3c;
+}
+
+.request-buttons button:nth-child(2):hover {
+  background-color: #c0392b;
+}
+
+.request-buttons button:nth-child(3) {
+  background-color: #f1c40f;
+}
+
+.request-buttons button:nth-child(3):hover {
+  background-color: #f39c12;
+}
+
+/* Styles pour l'entrée de notification */
+.notification-input {
+  margin-top: 10px;
+}
+
+.notification-input input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  font-size: 16px;
+}

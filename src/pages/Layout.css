@@ -1,0 +1,44 @@
+/* Layout.css */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    
+    background-color: #f4f4f4;
+  }
+  
+  nav {
+    background-color: #4a8199;
+    padding: 1rem;
+  }
+  
+  nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav ul li {
+    margin: 0 1rem;
+  }
+  
+  nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.3rem;
+  }
+  
+  nav ul li a:hover {
+    color: #0c4457;
+  }
+  
+  main {
+    padding: 2rem;
+    background-color: white;
+    max-width: 800px;
+    margin: 2rem auto;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  

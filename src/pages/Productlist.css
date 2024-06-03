@@ -1,0 +1,54 @@
+/* General styling for the product list container */
+.product-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding: 20px;
+  background-color: #f8f8f8;
+}
+
+/* Styling each product card */
+.product-card {
+  background-color: white;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin: 10px;
+  padding: 20px;
+  text-align: center;
+  width: 300px;
+  transition: transform 0.2s;
+}
+
+.product-card:hover {
+  transform: scale(1.05);
+}
+
+/* Styling the product name */
+.product-name {
+  font-size: 1.5em;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+/* Styling the product description */
+.product-description {
+  color: #666;
+  font-size: 0.9em;
+  margin: 10px 0;
+}
+
+/* Styling the product image */
+.product-image {
+  max-width: 100%;
+  height: auto;
+  border-radius: 4px;
+  margin: 20px 0;
+}
+
+/* Styling the product price */
+.product-price {
+  font-size: 1.2em;
+  color: #333;
+  font-weight: bold;
+}
